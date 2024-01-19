@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <!-- <img src="./shiv.PNG" width="250px" alt="No Image" /> <br/> -->
+    <img src="https://images.unsplash.com/photo-1661987584509-20babb3905be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" width="250px" alt="No Image" />
+    
+    <picture>
+        <!-- <source media="(min-width: 1210px)" srcset="./shiv.PNG">
+        <source media="(min-width: 640px)" srcset="./shiv.PNG">
+        <img src="./shiv.PNG1"  alt="No Image for picture" /> <br/> -->
+    </picture>
+    
+    <img src="./shiv.PNG" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="362,353,183,53" shape="rect">
+        <area onclick="two()" target="" alt="" title="" href="" coords="72,677,189,750,163,773,6,773,0,754" shape="poly">
+    </map>
+
+    <script>
+        function one(){
+            alert("You Clicked on ling")
+        }
+        function two(){
+            alert("You Clicked on Ashok")
+        }
+    </script>
+
+</body>
+</html>
