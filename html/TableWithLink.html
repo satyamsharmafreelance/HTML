@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh Sir Playist</title>
+    
+    <style>
+        #border{
+            height: 95px;
+            width: 830px;
+            border-left: 2px solid #1d1a1a;
+            color: #00ffff;
+            background-color: #908c8c;
+            font-size: 80px;
+        }
+        #table{
+            text-align: center;
+            padding-top : 9px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        tr,th,td{
+            border : 1px solid #000000;
+            padding: 5px;
+        }
+        #best{
+            filter: drop-shadow(10px 10px 20px #88dc0b);
+        }
+        #tableHead{
+            
+            font-size: 30px;
+        }
+        .titleColumn{
+            font-size: 20px;
+        }
+    </style>
+    <div id="border">
+        <p id="best">Best Courses are here</p>
+    </div>
+</head>
+<body>
+    <div id="table">
+        <table>
+            <tr id="tableHead">
+                <th style="padding-left: 100px;
+                padding-right: 100px;">Title</th>
+                <th>Video URL</th>
+            </tr>
+            <tr>
+                <th class="titleColumn">Html</th>
+                <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=CPp54RBnzTl4WEN-&amp;list=PLu71SKxNbfoDBNF5s-WH6aLbthSEIMhMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+            </tr>
+            <tr>
+                <th class="titleColumn">JavaScript</th>
+                <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=NrAawwdD14M3xxPJ&amp;list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+            </tr>
+            <tr>
+                <th class="titleColumn">React</th>
+                <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=IWWUtWFsFletfx5a&amp;list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
